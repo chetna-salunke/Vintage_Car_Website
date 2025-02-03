@@ -1,6 +1,6 @@
 # Vintage Vibes 🚗
 
-![Screenshot 2025-02-03 002850](https://github.com/user-attachments/assets/c123a502-cd01-434c-b0e9-d9f734d41cea)
+![Screenshot 2025-02-03 002850](https://github.com/user-attachments/assets/31aeadd7-fcbc-4720-91e6-dd9ca3d7d81c)
 
 ## Cruising Through Code
 
