@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: #3D5C64;
+}
+.head button{
+    height: 10px;
+    width: 150px;
+    font-size: 15px;
+    padding: 30px 40px 0px 10px;
+    border: none;
+    cursor: pointer;
+    color:whitesmoke;
+    font-weight: 600;
+    background: none;
+    
+}
+.head button:hover{
+    color: rgb(168, 207, 183);
+}
+
+.visit{
+    height: 140rem;
+    width: 100%;
+    background-color:  #e8edf0;
+}
+.visit h1{
+    padding: 3rem 6rem 2rem 6rem;
+    font-size: 23px;
+    text-align: center;
+    color: beige;
+    background-color: #3D5C64;
+}
+.visit img{
+    height: 500px;
+    width: 100%;
+}
+.loc{
+    padding: 4rem 13rem 2rem 13rem;  
+}
+.loc .add{
+    padding: 7px 0 20px 0;
+}
+.loc iframe{
+    width: 69rem;
+    height: 300px;
+}
+.hours{
+    padding: 1rem 13rem 2rem 13rem;
+}
+.hours h2{
+    padding: 7px 0 20px 0;
+}
+.hours p{
+    padding: 1px;
+}
+
+.inquire{
+    padding: 0rem 13rem 2rem 13rem;  
+}
+.inquire h2{
+    padding-bottom: 10px;
+}
+.inquire p{
+    padding-top: 10px;
+}
+.form{
+    padding: 1rem 13rem 10rem 13rem;
+}
+.messg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.messg select {
+    height: 30px;
+    width: 500px;
+    font-size: 15px; /* Increase font size */
+    padding: 2px; /* Add padding for better readability */
+    margin-top: 15px;
+  }
+.messg label{
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+}
+.messg input{
+    height: 25px;
+    width: 500px;
+    font-size: 15px;
+    margin-top: 18px;
+}
+/* .mesgg input:hover{
+    box-shadow: 3px 3px 3px rgb(21, 90, 117);
+} */
+.messg textarea {
+    font-size: 15px;
+    margin-top: 15px;
+    resize: none; /* Disable vertical resizing */
+    height: 10rem; /* Set a fixed height */
+    width: 69rem; /* Set a fixed width */
+  }
+  .form button{
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(28, 27, 27);
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 6%;
+    border: none;
+  }
+  .form button:hover{
+    background-color:#C09E85;
+    color: rgb(0, 0, 0);
+
+  }
+
+  .footer{
+    padding: 30px;
+    height: 40px;
+    background-color: #3D5C64;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+}
+.link a{ 
+    padding-left: 10px;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+}

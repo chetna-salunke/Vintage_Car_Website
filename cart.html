@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+<body>
+    
+    <section class="visit">
+        <div class="head">    <!-- ← -->
+            <a href="./index.html"><button> >> Go Back</button></a>
+        </div>
+        <h1>Your dream vintage car awaits!  <br><br>Visit our showroom to explore our unique collection and enjoy exclusive promotions with personalized assistance from our expert team.</h1>
+       <!-- <img src="https://images.pexels.com/photos/9511691/pexels-photo-9511691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" > -->
+       <!-- <img src="https://images.pexels.com/photos/14493992/pexels-photo-14493992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""> -->
+        <img src="https://images.wallpaperscraft.com/image/single/car_retro_red_143454_2560x1080.jpg" alt="">
+
+        <div class="loc">
+            <h2>LOCATION</h2><br>
+            <P class="add">2310 Chaffee Drive, St. Louis, MO 63146 | 
+                <a href="#" style="text-decoration: none; color: black; padding: 2px;" ><i class="fa-solid fa-location" style="font-size: 15px; color: rgb(102, 102, 157);padding: 3px;"></i>Get Directions</a>
+                <a href="#" style="text-decoration: none; color: black; padding: 2px;"><i class="fa-solid fa-phone" style="font-size: 15px; padding: 3px;"></i>(314) 524-6000</a>
+            </P>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.1477714416687!2d73.76567897496535!3d18.61242208249902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b92a6dd587f5%3A0x8c3f461de6134c8a!2sQSpiders%20Pune%20Wakad!5e0!3m2!1sen!2sin!4v1732883065058!5m2!1sen!2sin" width="330" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe><br><br>
+            <hr>
+        </div>
+
+        <div class="hours">
+            <h2>HOURS</h2>
+            <p>Monday – Friday: 9 a.m. – 5 p.m.</p>
+            <p> Saturday: 9:30 a.m. – 3:30 p.m.</p>
+            <p> Sunday: closed</p>
+            <p>Or call (314) 524-6000to make an appointment.</p>
+            <hr style="margin-top: 1rem;">
+        </div>
+
+       <div class="inquire">
+        <h2>INQUIRIES</h2>
+       <!-- <p>Ready to make your classic car dreams a reality? Schedule a showroom visit to experience the car firsthand and explore
+        our competitive pricing and financing options. Our team is dedicated to providing you with the best possible value.</h2> -->
+        <p>Have a question or request?</p>
+        <p>Fill out the form below and we will respond as quickly as we can.</p>
+        <p>If you would like to contact someone directly please
+            select him/her from the list otherwise your email will be directed based on your inquiry.</p>
+       </div>
+
+       <div class="form">
+        <form action="" id="contactForm">
+          <div class="messg">
+            <p>  <label for="vcruisin">To</label><br>
+                <select name="to" id="">
+                    <option value="VCruisin">VCruisin</option>
+                    <option value="Kim Taehyung">Kim Taehyung</option>
+                    <option value="Jeon Jungkook">Jeon Jungkook</option>
+                    <option value="Park Jimin">Park Jimin</option>
+                    <option value="Min Yoongi">Min Yoongi</option>
+                    <option value="Jung Haseok">Jung Haseok</option>
+                    <option value="Kim Namjoon">Kim Namjoon</option>
+                    <option value="Mark Devid">Mark Devid</option>
+                </select><br>
+            </p>
+          </div>
+
+           <div class="messg">
+            <p>
+                <label for="">Name<sup style="color: red;">*</sup></label><br>
+                <input type="text" id="name" required>
+            </p>
+            <p> 
+                <label for="">Phone</label><br>
+                <input type="tel" name="" id="">
+            </p>
+           </div>
+           <div class="messg">
+                <p><label for="">Email<sup style="color: red;">*</sup></label><br>
+                   <input type="email" name="" id="email" required>
+                </p>
+                <p><label for="">Subject<sup style="color: red;">*</sup></label><br>
+                    <input type="text" id="subject"  required><br>
+                </p>
+           </div>
+          
+            <div class="messg">
+                <p>
+                    <label for="">Message<sup style="color: red;">*</sup></label><br>
+                    <textarea name="" id="messg" rows="2" cols="20" required></textarea>
+                </p>
+            </div>
+            <button type="button" onclick="handleSubmit()">SUBMIT</button>
+        </form>
+       </div>
+    </section>
+
+    <section class="footer">
+        <p >&copy;2025 VCruisin Ltd.</p>
+        <article class="link">
+            <a href="#"><i class="fa-solid fa-phone" style="font-size: 15px;"></i></a>(314) 524-6000
+            <a href="#"><i class="fa-solid fa-envelope" style="font-size: 15px;"></i></a>vcruisin@domain.com
+            <a href="https://www.instagram.com/carvintage/"><i class="fa-brands fa-instagram" style="font-size: 15px;"></i></a>instagram
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fvintagedotcars"><i class="fa-brands fa-twitter" style="font-size: 15px;"></i></a>twitter
+            <a href="#"><i class="fa-brands fa-facebook" style="font-size: 15px;"></i></a>facebook
+             <a href="#"><i class="fa-brands fa-youtube" style="font-size: 15px;"></i></a>youtube
+            </p>
+           </article>
+    </section>
+
+    <script>
+        function handleSubmit() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+
+            // Check if mandatory fields are filled
+            if (name && email && subject && messg) {
+                alert(`Heyy, Thank you for your inquiry ${name}! We will get back to you within 24 hours.`);
+                document.getElementById('contactForm').reset(); // Reset the form
+            } else {
+                alert('Please fill in all mandatory fields marked with *.');
+            }
+        }
+    </script>
+  
+</body>
+</html>

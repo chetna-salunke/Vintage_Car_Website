@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="signup.css">
+
+</head>
+
+<body>
+    <section class="contact">
+        <div class="head">    <!-- ← -->
+            <a href="./index.html"><button> >> Go Back</button></a>
+        </div>
+        <div class="con">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="login ">
+            <article class="first">
+                <img src="logo.png" alt="">
+                <h1><span style="font-size: 30px;">Welcome! </span><br> To Our Website.</h1>
+                <h2>Login to Explore Our Inventory & Exclusive Deals.</h2>
+                <p> <a href="#"><i class="fa-brands fa-instagram " style="font-size: 22px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" style="font-size: 22px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 22px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube" style="font-size: 22px;"></i></a>
+                </p>
+             </article>
+
+            <article class="second">
+                <form action="" id="signupForm">
+                    <h3>Create your account</h3>
+                    <label for="name">Name<sup style="color: red;">*</sup></label>
+                    <input type="text" placeholder="Enter your name" id="name" required><br>
+
+                    <label for="email">Email<sup style="color: red;">*</sup></label>
+                    <input type="email" placeholder="Enter your email"  id="email" required><br>
+
+                    <label for="password">Password<sup style="color: red;">*</sup></label>
+                    <input type="password" placeholder="Enter your password" id="password" required><br>
+                    <button type="button" id="submitButton" onclick="handleSubmit()">Sign Up</button>
+
+                    <h5 class="signup">Already have an account? <a href="profile.html" style="color: rgb(54, 117, 72);"> Sign In</a></h5>
+                </form>
+            </article>
+        </div>
+        <section class="footer">
+            <p >&copy;2025 VCruisin Ltd.</p>
+            <article class="link">
+                <a href="#"><i class="fa-solid fa-phone" style="font-size: 15px;"></i></a>(314) 524-6000
+                <a href="#"><i class="fa-solid fa-envelope" style="font-size: 15px;"></i></a>vcruisin@domain.com
+                <a href="#"><i class="fa-brands fa-instagram" style="font-size: 15px;"></i></a>instagram
+                <a href="#"><i class="fa-brands fa-twitter" style="font-size: 15px;"></i></a>twitter
+                <a href="#"><i class="fa-brands fa-facebook" style="font-size: 15px;"></i></a>facebook
+                 <a href="#"><i class="fa-brands fa-youtube" style="font-size: 15px;"></i></a>youtube
+                </p>
+               </article>
+        </section>
+    </section>
+
+
+    <script>
+        function handleSubmit() {
+            // Get the values from the form (optional, if you want to validate or use them)
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            // Check if all fields are filled
+            if (name === "" || email === "" || password === "") {
+                alert("Please fill in all fields.");
+                return; // Exit the function if any field is empty
+            }
+
+            // Display the pop-up message
+            alert(`🎉 Congratulations! Your account has been successfully created. \n Dive in and start exploring!`);
+            
+            // Optionally, you can reset the form after submission
+            document.getElementById('signupForm').reset();
+        }
+    </script>
+    
+</body>
+</html>

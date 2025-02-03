@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+button{
+    height: 30px;
+    width: 130px;
+    font-size: 17px;
+    padding: 10px 20px 20px 10px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background:#344e41;
+    font-weight: 600
+}
+.head{
+    height: 150px;
+    width: 100%;
+    background-color:#344e41;
+    align-content: center;
+}
+.head a{
+    text-decoration: none;
+}
+.head h1{
+    font-size: 25px;
+    color: rgb(170, 169, 169);
+    text-align: center;
+    letter-spacing: 2px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#view{
+    padding-top: 20px;
+    height: 360px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+#view .card{
+    height: 300px;
+    width: 410px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(178, 176, 176);
+    
+}
+#view  .card img{
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+#view .card:hover{
+    box-shadow: 0px 3px 3px rgb(138, 172, 185);
+}
+#view h2{
+    font-size: 20px;
+    color: rgb(93, 82, 82);
+    text-align: center;
+}
+#view h2 span{
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+div{
+    height: 60px;
+    background-color: #ffffff;
+}
+.footer{
+    padding: 30px;
+    height: 40px;
+    background-color: #3D5C64;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+}
+.link a{ 
+    padding-left: 10px;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+}

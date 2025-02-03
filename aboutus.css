@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: #3D5C64;
+}
+.head button{
+    height: 10px;
+    width: 150px;
+    font-size: 15px;
+    padding: 30px 40px 0px 10px;
+    border: none;
+    cursor: pointer;
+    color:whitesmoke;
+    font-weight: 600;
+    background: none;
+    
+}
+.head button:hover{
+    color: rgb(168, 207, 183);
+}
+
+.visit{
+    height: 90rem;
+    width: 100%;
+    background-color:  #e8edf0;
+}
+.visit h1{
+    padding: 3rem 6rem 2rem 6rem;
+    font-size: 23px;
+    text-align: center;
+    color: beige;
+    background-color: #3D5C64;
+}
+.visit img{
+    height: 500px;
+    width: 100%;
+}
+.first{
+    padding: 4rem 50rem 2rem 13rem;  
+}
+.first .add{
+    padding: 7px 0 20px 0;
+}
+.second{
+    padding: 2rem 50rem 2rem 13rem;  
+}
+.second .add{
+    padding: 7px 0 25px 0;
+}
+.third{
+    padding: 2rem 50rem 2rem 13rem;  
+}
+.third .add{
+    padding: 7px 0 20px 0;
+}
+
+
+  .footer{
+    padding: 30px;
+    height: 40px;
+    background-color: #3D5C64;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+}
+.link a{ 
+    padding-left: 10px;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+}

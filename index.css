@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#nav{
+    height: 175px;
+    width:100%;
+    background-color:#344e41;
+    position: sticky;      
+     
+}
+#nav .free{
+  padding-top: 5px;
+  width: 100%;
+  height: 25px;
+  color: #161616;
+  background-color: #C09E85;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+#nav .Search{
+    padding: 10px 27px 10px 27px;
+    position: relative;
+    border: 2px solid rgb(120, 136, 81);
+    left: 28px;
+    top: 65px;
+    width: 200px;
+}
+#nav a{
+    position: relative;
+    top: 90px;
+    left: 13rem; 
+    margin-left: 65px;
+    text-decoration: none;
+    color: rgb(245, 249, 247);
+    font-weight: 700;
+    font-size: 17px;
+}
+#nav a:hover{
+  transition-duration: 0.2s;
+  border-bottom: 3px solid #9ab89a;
+}
+#nav .cart i{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  justify-content:space-around;
+  align-items:flex-end;  
+  margin-left:73rem;
+  margin-top: -30px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+#nav img{
+  padding-top: 10px;
+  position: absolute;
+  left: 42rem;
+  height: 38px;
+}
+#home{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);  
+    position:sticky;   
+}
+
+#home img{
+    position: absolute;
+    height: 450px;
+    width: 48rem;
+    top: 75px;
+    left: 760px;
+    align-items: center; 
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count:inherit;
+}
+@keyframes move {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-22%);
+  }
+}
+#head{
+    font-size: 72px;
+    color: rgb(35, 43, 41);
+    position: relative;
+    left: 85px;
+    top: 100px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#home .subhead{
+    color: rgb(99, 101, 100);
+    font-size: 25px;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+#home .car button{
+    padding: 15px 25px 15px 25px;
+    margin-top: 40px;
+    margin-left: 95px;
+    background: #553e2f ;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer; 
+}
+#home .car button:hover{
+    background: #131313;
+}
+
+#collection{
+    background-color:  #3D5C64;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+} 
+
+#collection .card{
+  height: 400px;
+  width: 400px;
+  background-color: rgb(246, 243, 243);
+  padding: 10px;
+  border-radius: 5px;
+}
+#collection .card h1{
+  margin-left: 20px;
+  font-size: 30px;
+  text-align: justify;
+  padding-top: 12px;
+}
+#collection .card h2{
+  margin-left: 24px;
+  font-size: 18px;
+  padding-top: 14px;
+  text-align: justify;
+
+}
+#collection .card img{
+  margin-top: -30px;
+  align-items: center;
+}
+
+#collection .card button{
+  margin-top: -50px;
+  padding: 10px 20px 10px 20px;
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: 600;
+  cursor:pointer;
+}
+#collection .card button:hover{
+  color: #6b2504;
+}
+#collection .card:hover{
+  transform: translateY(-20px);
+  transition: 0.3s;
+  box-shadow: 0 0px 1px 4px rgb(78, 57, 57);
+}
+
+.spaces{
+  background-color: #e8edf0;
+  height: 45px;
+}
+.allcar{
+  height: 0px;
+  width: 100%;
+}
+.allcar h1{
+  font-size: 35px;
+  margin-top: 0px;
+  margin-left: 80px;
+}
+.allcar button{
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  background: none;
+  padding: 10px;
+  margin-left: 83rem;
+  margin-top: -21px;
+  cursor: pointer;
+}
+.allcar button:hover{
+  color: #6b2504;
+}
+
+#shopnow{
+  background-color: #e8edf0;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}  
+#shopnow .shop{
+  height: 300px;
+  width: 300px; 
+  /* background-color: rgb(226, 233, 185); */
+  padding: 20px;
+}
+.shop img{
+  height:200px;
+  width:300px; 
+  transition-timing-function: ease-in-out; 
+  transition-duration: .25s; 
+}
+.shop img:hover{
+  transform: scale(1.3); 
+}
+.shop h3{
+  font-size: 20px;
+  text-align: center;
+  padding: 3px;
+}
+.shop h4{
+  text-align: center;
+  padding: 3px;
+}
+.shop p{
+  text-align: center;
+  padding: 3px;
+  border-bottom: 2px solid rgb(142, 118, 90);
+}
+.shop button{
+  font-size: 15px;
+  font-weight:500;
+  text-align: center;
+  background:   #366672;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-left: 7rem;
+  padding : 10px 20px 10px 20px;
+}
+.shop button:hover{
+  background-color: #6b503d;
+  
+}
+
+#newcolle{
+  height: 40rem;
+  width: 100%;
+  background-color: #3D5C64;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#newcolle .first{
+  height: 460px;
+  width: 55rem;
+  background-color:  #000000;
+  background-image: url(./images/The-Best-Vintage-Car-Wallpapers-29-Best-Vintage-Car-wv-aston-martin-ferarri-1024x640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition:  0.6s ease-in-out;
+}
+#newcolle .first:hover{
+ scale: 0.9;
+}
+#newcolle .first h3{
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  padding: 30px 40px;
+  font-weight: 600;
+
+}
+#newcolle .first h1{
+  color: rgb(255, 255, 255);
+  padding: 0px 40px;
+  font-size: 30px;
+  word-spacing: 6px;
+  letter-spacing: 2px;
+
+}
+#newcolle .first button{
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding: 15px 20px 15px 20px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight:600;
+}
+#newcolle .first button:hover{
+  transition-duration: 0.5s;
+  color: white;
+  background-color:  #6b503d;
+  cursor: pointer;
+}
+#newcolle .second{
+  height: 460px;
+  width: 450px;
+  background-color: #000000;
+  background-image: url(./images/download\ \(5\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition:  0.6s ease-in-out;
+}
+#newcolle .second:hover{
+  scale: 0.9;
+}
+#newcolle .second h1{
+  margin-top: 15px;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 25px;
+  padding: 30px 40px 15px 40px;
+}
+#newcolle .second h4{
+  color: white;
+  padding: 0px 40px 0 40px;
+  font-size: 15px;
+  word-spacing: 2px;
+}
+#newcolle .second button{
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 15px;
+  padding: 15px 20px 15px 20px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight:600;
+}
+#newcolle .second button:hover{
+  transition-duration: 0.5s;
+  background-color:  #6b503d;
+  color: white;
+  cursor: pointer;
+}
+
+
+.space{
+  background-color: #e8edf0;
+  height: 45px;
+}
+.us p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 0px;
+  background-color: #e8edf0;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+}
+.why{
+  height: 24rem;
+  width: 100%;
+  background-color:#e8edf0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.why .choose{
+  height: 250px;
+  width: 330px;
+}
+.choose img{
+  height: 70px;
+  width: 70px;
+  padding-left: 120px;
+  /* transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transform: translateY(-30px); */
+}
+.choose h3{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.choose p{
+  font-size: 17px;
+  padding-top: 10px;
+  text-align:center;
+  color: rgb(91, 99, 92);
+ 
+}
+
+.ride{
+  height: 28rem;
+  background-color: #263e32;
+}
+.ride p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position:absolute;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  z-index: 1;
+  margin-left: 13rem;
+  margin-top: 11rem;
+}
+.ride video{
+  height: 430px;
+  width: 100%;
+  object-fit: cover;
+  /* filter: blur(0px); */
+}
+
+#contact{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color:#263e32;
+  padding-top: 35px;
+}
+.cont{
+  display: flex;
+  align-self: center;
+}
+.cont ul {
+  list-style-type: none;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  /* padding: 1px 2px 1px 2px; */
+}
+.cont li,a{
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(223, 218, 218);
+}
+.cont input{
+  border: 1px solid gray;
+  height: 48px;
+  width: 350px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.cont button{
+  border: none;
+  height: 45px;
+  width: 100px;
+  background: #000;
+  color: white;
+  border-radius:  5px;
+  cursor: pointer;
+}
+.cont button:hover{
+  color: black;
+  background-color:  #6b503d;
+}
+.footer{
+  height: 130px;
+  background-color:#263e32;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .fa-brands{
+ margin-left: 20px;
+}
+.footer p, a{
+  color: rgb(246, 240, 240);
+}
+.footer h1{
+  font-size: 35px;
+  color: rgb(238, 238, 234);
+}
+
+.arrow button{
+  position:absolute;
+  background-color: rgb(10, 10, 10) ;
+  margin-left: 91rem;
+  margin-top: -87px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: none;
+  cursor: pointer; 
+
+}
+.arrow button:hover{
+  transform: scale(1.1);
+  background-color: #3D5C64;
+}
+
+

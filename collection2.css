@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    height: 175px;
+    width:100%;
+    background-color:#344e41;
+    position: sticky;      
+     
+}
+#nav .free{
+  padding-top: 5px;
+  width: 100%;
+  height: 25px;
+  color: #161616;
+  background-color: #C09E85;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+#nav .Search{
+    padding: 10px 27px 10px 27px;
+    position: relative;
+    border: 2px solid rgb(120, 136, 81);
+    left: 28px;
+    top: 65px;
+    width: 200px;
+}
+#nav a{
+    position: relative;
+    top: 25px;
+    left: 435px; 
+    margin-left: 65px;
+    text-decoration: none;
+    color: rgb(245, 249, 247);
+    font-weight: 700;
+    font-size: 17px;
+}
+#nav a:hover{
+  transition-duration: 0.2s;
+  border-bottom: 3px solid #9ab89a;
+}
+
+#nav .cart{
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content:space-around;
+  align-items:flex-end;  
+  margin-left: 85rem;
+  margin-top: -18px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+button{
+    height: 30px;
+    width: 70px;
+    font-size: 18px;
+    padding: 10px 20px 20px 10px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background:#344e41;
+    font-weight: 600
+}
+.head{
+    height: 66px;
+    width: 100%;
+    background-color:#344e41;
+    align-content: center;
+}
+.about{
+    height: 70rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+.about .content{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.about .sub-about{
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.sub-about .car .subimg{
+    padding-top: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+.about .sub-about .contentbox{
+    width: 650px;
+}
+.about .sub-about .contentbox h2{
+    color: rgb(34, 44, 34);
+    text-align: left;
+    padding-top: 1px;
+
+}
+.about .sub-about .contentbox p{
+    padding-top: 20px;
+    text-indent: 5px;
+    text-align:justify;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.sub-about img{
+    border-radius: 1%;
+    border: 1px solid rgb(187, 184, 184);
+}
+.sub-about img:hover{
+   border: 1px solid rgb(77, 108, 142);
+}
+.space{
+    height: 300px;
+    background-color: rebeccapurple;
+}
+
+.footer{
+    padding: 30px;
+    height: 40px;
+    background-color: #3D5C64;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+}
+.link a{ 
+    padding-left: 10px;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+}

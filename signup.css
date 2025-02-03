@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.contact .head button{
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    padding: 10px 0px 0px 0px;
+    border: none;
+    cursor: pointer;
+    color: #fafafa;
+    font-weight: 600;
+    background: none;
+}
+.head button:hover{
+    color: rgb(195, 160, 160);
+}
+.contact{
+    padding-top: 20px;
+    height: 150px;
+    background-color: #3D5C64;
+}
+.contact  .con{
+    height: 60px;
+    text-align: center;
+}
+.contact  .con h1{
+    color: white;
+    font-size: 30px;
+}
+.contact .login{
+    height: 38rem;
+    width: 100%;
+    background-color: #e8edf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-image: url(https://t3.ftcdn.net/jpg/06/83/94/28/360_F_683942890_c2GjYVRjPh9Wu1YYSqTf8M65ystdhpBR.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.contact .login .first{
+    height: 30rem;
+    width: 31rem;
+    background-color:  rgb(113, 111, 62);
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+}
+.contact .login .first img{
+    padding-top: 30px;
+    padding-left: 50px;
+    height: 30px;
+}
+.contact .login .first h1{
+    padding-top: 9rem;
+    padding-left: 50px;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(90, 126, 88);
+}
+.contact .login .first h2{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 15px;  
+}
+.contact .login .first p{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.contact .login .first a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.contact .login .first a i{
+    scale:(1.3)
+}
+
+.contact .login .second{
+    height: 30rem;
+    width: 420px;
+    /* background-image: url(https://t3.ftcdn.net/jpg/06/83/94/28/360_F_683942890_c2GjYVRjPh9Wu1YYSqTf8M65ystdhpBR.jpg);
+    background-position: center; */
+    background-color: rgb(202, 204, 154);
+    border-right: 3px solid white;
+    border-bottom:3px solid white ;
+}
+.contact .login .second h3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    font-size: 25px;
+}
+.contact .login .second label{
+    margin-left: 12px;
+    padding-top: 40px;
+    position: fixed;
+}
+.contact .login .second input{
+    color: rgb(0, 0, 0);
+    padding:4px;
+    margin-left: 50px;
+    margin-top: 45px;
+    width: 310px;
+    outline: none;
+    font-size: 15px;
+}
+
+.contact .login .second label{
+    font-size: 14px;
+    position: absolute;
+    margin-top: -25px;
+    padding-left: 40px;
+}
+
+.contact .login .second button{
+    width: 310px;
+    height: 40px;
+    background-color: rgb(106, 91, 55);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    padding:5px;
+    margin-left: 57px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.contact .login .second .signup {
+   padding-top: 25px ;
+   margin-left: 90px;
+}
+
+.contact .login .second button:hover{
+    background-color: rgb(28, 28, 28);
+
+}
+
+.footer{
+    padding: 30px;
+    height: 30px;
+    background-color: #3D5C64;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+}
+.link a{ 
+    padding-left: 10px;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+}

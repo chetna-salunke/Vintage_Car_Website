@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="profile.css">
+
+</head>
+
+<body>
+    
+    <section class="contact">
+        <div class="head">    <!-- ← -->
+            <a href="./index.html"><button> >> Go Back</button></a>
+        </div>
+        <div class="con">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="login ">
+            <article class="first">
+                <img src="logo.png" alt="">
+                <h1><span style="font-size: 30px;">Welcome! </span><br> To Our Website.</h1>
+                <h2>Login to Explore Our Inventory & Exclusive Deals.</h2>
+                <p> <a href="#"><i class="fa-brands fa-instagram " style="font-size: 22px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" style="font-size: 22px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 22px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube" style="font-size: 22px;"></i></a>
+                </p>
+             </article>
+
+            <article class="second">
+                <form action="" id="signInForm">
+                    <h3>Sign In</h3>
+                    <input type="email" placeholder="Email" id="email"  required><i class="fa-solid fa-envelope"></i><br><br>
+                    <input type="text" placeholder="Password" id="password"  required><i class="fa-solid fa-lock"></i><br><br>
+
+                    <p class="remember-me"><input type="checkbox"></p>
+                    <label for="remember">Remember me</label>
+                   <p> <a href="#">Forgot password?</a></p><br>
+                    <button type="button" id="signInButton" onclick="handleSignIn()">Submit</button><br> <br>
+                    <h5 class="signup">Don't have an account? <a href="Signup.html"> Sign Up</a></h5>
+                </form>
+            </article>
+        </div>
+
+
+        <section class="footer">
+            <p >&copy;2025 VCruisin Ltd.</p>
+            <article class="link">
+                <a href="#"><i class="fa-solid fa-phone" style="font-size: 15px;"></i></a>(314) 524-6000
+                <a href="#"><i class="fa-solid fa-envelope" style="font-size: 15px;"></i></a>vcruisin@domain.com
+                <a href="#"><i class="fa-brands fa-instagram" style="font-size: 15px;"></i></a>instagram
+                <a href="#"><i class="fa-brands fa-twitter" style="font-size: 15px;"></i></a>twitter
+                <a href="#"><i class="fa-brands fa-facebook" style="font-size: 15px;"></i></a>facebook
+                 <a href="#"><i class="fa-brands fa-youtube" style="font-size: 15px;"></i></a>youtube
+                </p>
+               </article>
+        </section>
+    </section>
+   
+
+    <script>
+        function handleSignIn() {
+            // Get the values from the form
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value.trim();
+
+            const validEmail = "chetna@gmail.com";
+            const validPassword = "123";
+            // Check if all fields are filled
+            if (email === validEmail && password === validPassword) {
+                alert("🔑 Welcome back!\nYou have successfully signed in.\nEnjoy your experience!");
+                
+                setTimeout(function() {
+                window.location.href = 'index.html'; // Change this to your home page URL
+               }, 1000); // Redirect after 2 seconds
+            }  else {
+                alert(" Invalid email or password. Please try again.");
+            }  
+            // Optionally, you can reset the form after submission
+            document.getElementById('signInForm').reset();
+        }
+        
+    </script>
+    
+</body>
+</html>
